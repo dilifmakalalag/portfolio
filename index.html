@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dilif — Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <div><span class="dot"></span>SISTEM AKTIF — JAYAPURA, PAPUA</div>
+        <nav>
+          <a href="index.html" class="active">Beranda</a>
+          <a href="proyek.html">Proyek</a>
+          <a href="stack.html">Stack</a>
+          <a href="kontak.html">Kontak</a>
+        </nav>
+      </div>
+
+      <section class="hero" style="border-top: none; padding-top: 56px">
+        <div class="eyebrow">
+          // full-stack developer — sistem pemerintahan &amp; institusi
+        </div>
+        <h1>
+          Dilif<br /><span>membangun sistem</span> yang dipakai instansi
+          sungguhan.
+        </h1>
+        <p class="role">
+          Lulusan <b>S1 Teknik Informatika</b> yang fokus mengembangkan aplikasi
+          backend untuk instansi pemerintah dan institusi di Papua — dari sistem
+          antrean hingga pemetaan berbasis data, dibangun dengan
+          <b>CodeIgniter 4</b> dan PHP.
+        </p>
+
+        <div class="console">
+          <div class="console-head">
+            <div class="lights"><span></span><span></span><span></span></div>
+            status.log
+          </div>
+          <div class="console-body" id="consoleBody"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="section-label">tentang</div>
+        <p>
+          Berbasis di <strong>Jayapura, Papua</strong>, saya mengerjakan sistem
+          yang benar-benar dipakai sehari-hari oleh operator dan staf instansi —
+          bukan sekadar demo. Pendekatan saya inkremental: membangun fitur satu
+          per satu, menguji di lapangan, lalu memperluas cakupan.
+        </p>
+        <p>
+          Beberapa mitra kerja: <strong>Diskominfo Kota Jayapura</strong>,
+          <strong>BNN Provinsi Papua</strong>, <strong>Polres Keerom</strong>,
+          dan <strong>KU TNI Wilayah Papua I</strong>.
+        </p>
+      </section>
+
+      <section class="stats-section">
+        <div class="section-label">rekam jejak</div>
+        <div class="stats">
+          <div class="stat">
+            <div class="num">4+</div>
+            <div class="label">instansi &amp; klien</div>
+          </div>
+          <div class="stat">
+            <div class="num">48</div>
+            <div class="label">distrik dipetakan (BNN Papua)</div>
+          </div>
+          <div class="stat">
+            <div class="num">13</div>
+            <div class="label">tabel schema — SIAGA-KU</div>
+          </div>
+          <div class="stat">
+            <div class="num">2021–26</div>
+            <div class="label">rentang data kerawanan</div>
+          </div>
+        </div>
+      </section>
+
+      <footer>© 2026 DILIF — DIBANGUN DARI JAYAPURA, PAPUA</footer>
+    </div>
+
+    <script>
+      const lines = [
+        { text: "connecting to diskominfo_jayapura... ", ok: "OK" },
+        { text: "connecting to bnn_papua... ", ok: "OK" },
+        { text: "connecting to polres_keerom... ", ok: "OK" },
+        { text: "connecting to ku_tni_papua_i... ", ok: "OK" },
+        { text: "", ok: "", plain: "semua sistem aktif dan berjalan." },
+      ];
+
+      const body = document.getElementById("consoleBody");
+      const prefersReduced = window.matchMedia(
+        "(prefers-reduced-motion: reduce)",
+      ).matches;
+
+      lines.forEach((l, i) => {
+        const div = document.createElement("div");
+        div.className = "console-line";
+        if (l.plain) {
+          div.innerHTML = '<span class="prompt">&gt; </span>' + l.plain;
+        } else {
+          div.innerHTML =
+            '<span class="prompt">&gt; </span>' +
+            l.text +
+            '<span class="ok">' +
+            l.ok +
+            "</span>";
+        }
+        div.style.animationDelay = prefersReduced ? "0s" : i * 0.35 + "s";
+        body.appendChild(div);
+      });
+    </script>
+  </body>
+</html>
