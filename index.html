@@ -18,12 +18,57 @@
         </nav>
       </div>
 
+      <!-- ===== JUMBOTRON Y2K ===== -->
+      <section class="y2k" id="jumbotron">
+        <canvas class="y2k-rain" id="y2kRain" aria-hidden="true"></canvas>
+        <div class="y2k-veil" aria-hidden="true"></div>
+
+        <div class="y2k-stage">
+          <div class="y2k-card" id="y2kCard">
+            <div class="y2k-body">
+              <div class="y2k-sheen" aria-hidden="true"></div>
+              <div class="y2k-gloss" aria-hidden="true"></div>
+
+              <div class="y2k-inner">
+                <div class="y2k-eyebrow">
+                  <span class="orb"></span>online — jayapura, papua
+                </div>
+
+                <div class="y2k-chrome">annonymous</div>
+
+                <p class="y2k-sub">
+                  Full-stack developer. Membangun sistem backend yang dipakai
+                  <b>instansi pemerintah</b> di Papua — antrean layanan,
+                  pemetaan data, sampai pelaporan lapangan.
+                </p>
+
+                <div class="y2k-chips">
+                  <span class="y2k-chip">CodeIgniter 4</span>
+                  <span class="y2k-chip">PHP</span>
+                  <span class="y2k-chip">MySQL</span>
+                  <span class="y2k-chip">4+ instansi</span>
+                </div>
+
+                <div class="y2k-cta">
+                  <a class="y2k-btn solid" href="proyek.html">Lihat proyek</a>
+                  <a class="y2k-btn" href="kontak.html">Hubungi saya</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="y2k-ticker" aria-hidden="true">
+          <div class="y2k-ticker-track" id="y2kTicker"></div>
+        </div>
+      </section>
+
       <section class="hero" style="border-top: none; padding-top: 56px">
         <div class="eyebrow">
           // full-stack developer — sistem pemerintahan &amp; institusi
         </div>
         <h1>
-          Dilif<br /><span>membangun sistem</span> yang dipakai instansi
+          annonymous<br /><span>membangun sistem</span> yang dipakai instansi
           sungguhan.
         </h1>
         <p class="role">
@@ -79,6 +124,573 @@
         </div>
       </section>
 
+      <!-- ===== DISIPLIN ===== -->
+      <section class="disc" id="disiplin">
+        <div class="section-label">disiplin</div>
+        <p class="disc-lead">
+          Delapan peran yang saya pegang, dan tahun-tahun saat masing-masing
+          benar-benar dipakai di proyek nyata.
+          <kbd>klik</kbd> satu kartu untuk menyaring linimasa di bawah.
+        </p>
+
+        <div class="disc-grid" id="discGrid">
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="analis"
+            aria-pressed="false"
+          >
+            <span class="disc-name">Analis Sistem</span>
+            <span class="disc-stack">Alur proses · ERD · Skema database</span>
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="uiux"
+            aria-pressed="false"
+          >
+            <span class="disc-name">UI/UX Desain</span>
+            <span class="disc-stack">Figma · Wireframe · Design system</span>
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="frontend"
+            aria-pressed="false"
+          >
+            <span class="disc-name">Front-end</span>
+            <span class="disc-stack">HTML · CSS · JavaScript · Bootstrap</span>
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="backend"
+            aria-pressed="false"
+          >
+            <span class="disc-name">Back-end</span>
+            <span class="disc-stack"
+              >PHP · CodeIgniter 4 · MySQL · REST API</span
+            >
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="android"
+            aria-pressed="false"
+          >
+            <span class="disc-name">Android</span>
+            <span class="disc-stack">Flutter · Kotlin · Room</span>
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="firebase"
+            aria-pressed="false"
+          >
+            <span class="disc-name">Firebase</span>
+            <span class="disc-stack">Firestore · Auth · Cloud Messaging</span>
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="datasci"
+            aria-pressed="false"
+          >
+            <span class="disc-name">Data Scientist</span>
+            <span class="disc-stack"
+              >Python · Pandas · Skoring & visualisasi</span
+            >
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+          <button
+            type="button"
+            class="disc-card reveal"
+            data-role="dataeng"
+            aria-pressed="false"
+          >
+            <span class="disc-name">Data Engineer</span>
+            <span class="disc-stack">ETL · Normalisasi · Pipeline data</span>
+            <span class="disc-track" aria-hidden="true"></span>
+            <span class="disc-scale" aria-hidden="true"
+              ><span>'20</span><span>'26</span></span
+            >
+            <span class="disc-meta">—</span>
+          </button>
+        </div>
+
+        <button type="button" class="disc-clear" id="discClear" hidden>
+          Tampilkan semua proyek
+        </button>
+      </section>
+
+      <!-- ===== LINIMASA 2020–2026 ===== -->
+      <section class="tl" id="linimasa">
+        <div class="section-label">garis waktu</div>
+        <p class="tl-lead">
+          Tujuh tahun, dari CRUD pertama sampai sistem yang dipakai empat
+          instansi. Tiap proyek ditandai peran yang saya pegang di dalamnya.
+        </p>
+
+        <div class="tl-strip" id="tlStrip">
+          <span class="tl-strip-fill" id="tlFill" aria-hidden="true"></span>
+          <a href="#y2020">2020</a>
+          <a href="#y2021">2021</a>
+          <a href="#y2022">2022</a>
+          <a href="#y2023">2023</a>
+          <a href="#y2024">2024</a>
+          <a href="#y2025">2025</a>
+          <a href="#y2026">2026</a>
+        </div>
+
+        <!-- ---- 2020 ---- -->
+        <article class="tl-year" id="y2020" data-year="2020">
+          <div class="tl-year-col">
+            <div class="tl-year-sticky reveal">
+              <div class="tl-num">2020</div>
+              <div class="tl-year-tag">fondasi</div>
+              <div class="tl-year-count">2 proyek</div>
+            </div>
+          </div>
+          <div class="tl-items">
+            <div
+              class="tl-item reveal"
+              style="--i: 0; --accent: var(--rc-backend)"
+              data-roles="backend frontend"
+            >
+              <div class="tl-item-head">
+                <h3>Sistem Informasi Inventaris</h3>
+              </div>
+              <div class="client">Proyek mandiri</div>
+              <p class="desc">
+                CRUD pertama yang dibangun dari nol dengan PHP native.
+                Autentikasi sesi, hak akses dua level, dan laporan cetak
+                sederhana.
+              </p>
+              <div class="tl-roles">
+                <span class="role backend">back-end</span>
+                <span class="role frontend">front-end</span>
+              </div>
+              <div class="tags">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+            </div>
+            <div
+              class="tl-item reveal"
+              style="--i: 1; --accent: var(--rc-android)"
+              data-roles="android uiux"
+            >
+              <div class="tl-item-head">
+                <h3>Aplikasi Catatan Android</h3>
+              </div>
+              <div class="client">Proyek mandiri</div>
+              <p class="desc">
+                Latihan siklus hidup Activity, penyimpanan lokal, dan menyusun
+                layout yang tetap terbaca di layar kecil.
+              </p>
+              <div class="tl-roles">
+                <span class="role android">android</span>
+                <span class="role uiux">ui/ux</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">SQLite</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- 2021 ---- -->
+        <article class="tl-year" id="y2021" data-year="2021">
+          <div class="tl-year-col">
+            <div class="tl-year-sticky reveal">
+              <div class="tl-num">2021</div>
+              <div class="tl-year-tag">kerangka kerja</div>
+              <div class="tl-year-count">2 proyek</div>
+            </div>
+          </div>
+          <div class="tl-items">
+            <div
+              class="tl-item reveal"
+              style="--i: 0; --accent: var(--rc-backend)"
+              data-roles="backend"
+            >
+              <div class="tl-item-head">
+                <h3>Migrasi ke CodeIgniter 4</h3>
+              </div>
+              <div class="client">Proyek mandiri</div>
+              <p class="desc">
+                Berhenti menulis semuanya manual. Pindah ke struktur MVC, query
+                builder, dan migration agar perubahan skema database bisa
+                dilacak.
+              </p>
+              <div class="tl-roles">
+                <span class="role backend">back-end</span>
+              </div>
+              <div class="tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">PHP 8</span>
+                <span class="tag">Migration</span>
+              </div>
+            </div>
+            <div
+              class="tl-item reveal"
+              style="--i: 1; --accent: var(--rc-analis)"
+              data-roles="analis uiux"
+            >
+              <div class="tl-item-head">
+                <h3>Prototipe alur layanan publik</h3>
+              </div>
+              <div class="client">Studi mandiri</div>
+              <p class="desc">
+                Memetakan alur antrean loket jadi wireframe: dari pengambilan
+                nomor, pemanggilan, sampai rekap harian.
+              </p>
+              <div class="tl-roles">
+                <span class="role analis">analis sistem</span>
+                <span class="role uiux">ui/ux</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Figma</span>
+                <span class="tag">Flowchart</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- 2022 ---- -->
+        <article class="tl-year" id="y2022" data-year="2022">
+          <div class="tl-year-col">
+            <div class="tl-year-sticky reveal">
+              <div class="tl-num">2022</div>
+              <div class="tl-year-tag">klien pertama</div>
+              <div class="tl-year-count">1 proyek</div>
+            </div>
+          </div>
+          <div class="tl-items">
+            <div
+              class="tl-item reveal"
+              style="--i: 0; --accent: var(--rc-analis)"
+              data-roles="analis backend frontend uiux"
+            >
+              <div class="tl-item-head">
+                <h3>Sistem Antrean Layanan</h3>
+                <span class="badge live">LIVE</span>
+              </div>
+              <div class="client">Diskominfo Kota Jayapura</div>
+              <p class="desc">
+                Nomor antrean per loket, layar pemanggilan untuk ruang tunggu,
+                dan rekap harian yang bisa diunduh operator. Diuji langsung di
+                meja layanan sebelum diperluas.
+              </p>
+              <div class="tl-roles">
+                <span class="role analis">analis sistem</span>
+                <span class="role backend">back-end</span>
+                <span class="role frontend">front-end</span>
+                <span class="role uiux">ui/ux</span>
+              </div>
+              <div class="tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">jQuery</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- 2023 ---- -->
+        <article class="tl-year" id="y2023" data-year="2023">
+          <div class="tl-year-col">
+            <div class="tl-year-sticky reveal">
+              <div class="tl-num">2023</div>
+              <div class="tl-year-tag">perluasan</div>
+              <div class="tl-year-count">2 proyek</div>
+            </div>
+          </div>
+          <div class="tl-items">
+            <div
+              class="tl-item reveal"
+              style="--i: 0; --accent: var(--rc-analis)"
+              data-roles="analis backend frontend"
+            >
+              <div class="tl-item-head">
+                <h3>Sistem Administrasi &amp; Pelaporan</h3>
+                <span class="badge live">LIVE</span>
+              </div>
+              <div class="client">Polres Keerom</div>
+              <p class="desc">
+                Pendataan laporan masuk, disposisi berjenjang, dan arsip digital
+                yang menggantikan pencatatan manual.
+              </p>
+              <div class="tl-roles">
+                <span class="role analis">analis sistem</span>
+                <span class="role backend">back-end</span>
+                <span class="role frontend">front-end</span>
+              </div>
+              <div class="tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">MySQL</span>
+              </div>
+            </div>
+            <div
+              class="tl-item reveal"
+              style="--i: 1; --accent: var(--rc-android)"
+              data-roles="android firebase backend"
+            >
+              <div class="tl-item-head">
+                <h3>Pendataan lapangan</h3>
+                <span class="badge live">LIVE</span>
+              </div>
+              <div class="client">Polres Keerom</div>
+              <p class="desc">
+                Pendamping Android untuk petugas di lapangan. Input tetap jalan
+                tanpa sinyal, lalu disinkronkan begitu kembali online.
+              </p>
+              <div class="tl-roles">
+                <span class="role android">android</span>
+                <span class="role firebase">firebase</span>
+                <span class="role backend">back-end</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Room</span>
+                <span class="tag">Firestore</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- 2024 ---- -->
+        <article class="tl-year" id="y2024" data-year="2024">
+          <div class="tl-year-col">
+            <div class="tl-year-sticky reveal">
+              <div class="tl-num">2024</div>
+              <div class="tl-year-tag">sistem berjenjang</div>
+              <div class="tl-year-count">2 proyek</div>
+            </div>
+          </div>
+          <div class="tl-items">
+            <div
+              class="tl-item reveal"
+              style="--i: 0; --accent: var(--rc-analis)"
+              data-roles="analis backend frontend uiux"
+            >
+              <div class="tl-item-head">
+                <h3>SIAGA-KU</h3>
+                <span class="badge live">LIVE</span>
+              </div>
+              <div class="client">KU TNI Wilayah Papua I</div>
+              <p class="desc">
+                Sistem terbesar sejauh ini: skema 13 tabel yang menangani data
+                personel, kegiatan, dan pelaporan berjenjang antar satuan dalam
+                satu alur.
+              </p>
+              <div class="tl-roles">
+                <span class="role analis">analis sistem</span>
+                <span class="role backend">back-end</span>
+                <span class="role frontend">front-end</span>
+                <span class="role uiux">ui/ux</span>
+              </div>
+              <div class="tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Role-based access</span>
+              </div>
+            </div>
+            <div
+              class="tl-item reveal"
+              style="--i: 1; --accent: var(--rc-android)"
+              data-roles="android firebase uiux"
+            >
+              <div class="tl-item-head">
+                <h3>Aplikasi Monitoring Lapangan</h3>
+                <span class="badge live">LIVE</span>
+              </div>
+              <div class="client">KU TNI Wilayah Papua I</div>
+              <p class="desc">
+                Versi mobile lintas platform dari SIAGA-KU. Laporan masuk
+                langsung terlihat di dasbor pusat, lengkap dengan notifikasi.
+              </p>
+              <div class="tl-roles">
+                <span class="role android">android</span>
+                <span class="role firebase">firebase</span>
+                <span class="role uiux">ui/ux</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Firestore</span>
+                <span class="tag">Cloud Messaging</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- 2025 ---- -->
+        <article class="tl-year" id="y2025" data-year="2025">
+          <div class="tl-year-col">
+            <div class="tl-year-sticky reveal">
+              <div class="tl-num">2025</div>
+              <div class="tl-year-tag">data spasial</div>
+              <div class="tl-year-count">1 proyek</div>
+            </div>
+          </div>
+          <div class="tl-items">
+            <div
+              class="tl-item reveal"
+              style="--i: 0; --accent: var(--rc-analis)"
+              data-roles="analis backend frontend uiux datasci dataeng"
+            >
+              <div class="tl-item-head">
+                <h3>Pemetaan Kerawanan</h3>
+                <span class="badge live">LIVE</span>
+              </div>
+              <div class="client">BNN Provinsi Papua</div>
+              <p class="desc">
+                Peta interaktif tingkat kerawanan untuk 48 distrik. Skoring
+                dihitung dari indikator per wilayah, lalu ditampilkan sebagai
+                tren tahunan dengan rentang data 2021–2026.
+              </p>
+              <div class="tl-roles">
+                <span class="role analis">analis sistem</span>
+                <span class="role backend">back-end</span>
+                <span class="role frontend">front-end</span>
+                <span class="role uiux">ui/ux</span>
+                <span class="role datasci">data scientist</span>
+                <span class="role dataeng">data engineer</span>
+              </div>
+              <div class="tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">Leaflet</span>
+                <span class="tag">Chart.js</span>
+                <span class="tag">Python</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---- 2026 ---- -->
+        <article class="tl-year" id="y2026" data-year="2026">
+          <div class="tl-year-col">
+            <div class="tl-year-sticky reveal">
+              <div class="tl-num">2026</div>
+              <div class="tl-year-tag">sekarang</div>
+              <div class="tl-year-count">3 proyek</div>
+            </div>
+          </div>
+          <div class="tl-items">
+            <div
+              class="tl-item reveal"
+              style="--i: 0; --accent: var(--rc-datasci)"
+              data-roles="datasci dataeng analis"
+            >
+              <div class="tl-item-head">
+                <h3>Model skoring kerawanan v2</h3>
+                <span class="badge dev">DALAM PROSES</span>
+              </div>
+              <div class="client">BNN Provinsi Papua</div>
+              <p class="desc">
+                Membersihkan dan menormalkan data enam tahun dari berbagai
+                format dinas, lalu menyusun ulang bobot indikator agar peringkat
+                antar distrik lebih dapat dipertanggungjawabkan.
+              </p>
+              <div class="tl-roles">
+                <span class="role datasci">data scientist</span>
+                <span class="role dataeng">data engineer</span>
+                <span class="role analis">analis sistem</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">ETL</span>
+              </div>
+            </div>
+            <div
+              class="tl-item reveal"
+              style="--i: 1; --accent: var(--rc-analis)"
+              data-roles="analis backend dataeng"
+            >
+              <div class="tl-item-head">
+                <h3>Pemeliharaan &amp; iterasi</h3>
+                <span class="badge live">LIVE</span>
+              </div>
+              <div class="client">Empat instansi aktif</div>
+              <p class="desc">
+                Menambah fitur berdasarkan permintaan operator, memperbaiki yang
+                patah, dan menjaga sistem yang sudah berjalan tetap terpakai.
+              </p>
+              <div class="tl-roles">
+                <span class="role analis">analis sistem</span>
+                <span class="role backend">back-end</span>
+                <span class="role dataeng">data engineer</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Support</span>
+                <span class="tag">Iterasi</span>
+              </div>
+            </div>
+            <div
+              class="tl-item reveal"
+              style="--i: 2; --accent: var(--rc-frontend)"
+              data-roles="frontend uiux"
+            >
+              <div class="tl-item-head">
+                <h3>Portofolio ini</h3>
+                <span class="badge dev">DALAM PROSES</span>
+              </div>
+              <div class="client">Proyek mandiri</div>
+              <p class="desc">
+                Ditulis tangan tanpa framework. Latihan tentang gerak,
+                tipografi, dan menahan diri.
+              </p>
+              <div class="tl-roles">
+                <span class="role frontend">front-end</span>
+                <span class="role uiux">ui/ux</span>
+              </div>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
       <footer>© 2026 DILIF — DIBANGUN DARI JAYAPURA, PAPUA</footer>
     </div>
 
@@ -112,6 +724,349 @@
         div.style.animationDelay = prefersReduced ? "0s" : i * 0.35 + "s";
         body.appendChild(div);
       });
+    </script>
+
+    <script>
+      /* ---------- jumbotron Y2K ---------- */
+      (function () {
+        const reduced = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+
+        /* teks berjalan */
+        const ticker = document.getElementById("y2kTicker");
+        if (ticker) {
+          const items = [
+            "SIAGA-KU",
+            "PEMETAAN KERAWANAN — BNN PAPUA",
+            "SISTEM ANTREAN — DISKOMINFO JAYAPURA",
+            "POLRES KEEROM",
+            "KU TNI WILAYAH PAPUA I",
+            "48 DISTRIK TERPETAKAN",
+            "STATUS: SEMUA SISTEM AKTIF",
+          ];
+          const row = items.map((t) => "<span>" + t + " ///</span>").join("");
+          ticker.innerHTML = row + row; // digandakan agar loop mulus
+        }
+
+        /* kartu memantulkan cahaya mengikuti kursor */
+        const card = document.getElementById("y2kCard");
+        if (card && !reduced && window.matchMedia("(pointer: fine)").matches) {
+          const MAX = 7; // derajat kemiringan maksimum
+          card.addEventListener("pointermove", (e) => {
+            const r = card.getBoundingClientRect();
+            const x = (e.clientX - r.left) / r.width;
+            const y = (e.clientY - r.top) / r.height;
+            card.style.setProperty("--mx", x.toFixed(3));
+            card.style.setProperty("--my", y.toFixed(3));
+            card.style.setProperty(
+              "--ry",
+              ((x - 0.5) * MAX * 2).toFixed(2) + "deg",
+            );
+            card.style.setProperty(
+              "--rx",
+              ((0.5 - y) * MAX * 2).toFixed(2) + "deg",
+            );
+          });
+          card.addEventListener("pointerleave", () => {
+            card.style.setProperty("--rx", "0deg");
+            card.style.setProperty("--ry", "0deg");
+            card.style.setProperty("--mx", "0.5");
+            card.style.setProperty("--my", "0.35");
+          });
+        }
+
+        /* hujan kode vertikal */
+        const canvas = document.getElementById("y2kRain");
+        if (!canvas || !canvas.getContext) return;
+        const ctx = canvas.getContext("2d");
+
+        const GLYPHS =
+          "01<>{}[]();$=+*/#アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホPHPCI4";
+        const FONT = 15;
+        let cols = 0,
+          drops = [],
+          hues = [],
+          speeds = [],
+          w = 0,
+          h = 0,
+          raf = null;
+
+        function setup() {
+          const dpr = Math.min(window.devicePixelRatio || 1, 2);
+          const r = canvas.getBoundingClientRect();
+          w = Math.max(r.width, 1);
+          h = Math.max(r.height, 1);
+          canvas.width = Math.floor(w * dpr);
+          canvas.height = Math.floor(h * dpr);
+          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+          ctx.font = FONT + "px 'IBM Plex Mono', monospace";
+          ctx.textBaseline = "top";
+
+          cols = Math.ceil(w / FONT);
+          drops = [];
+          hues = [];
+          speeds = [];
+          for (let i = 0; i < cols; i++) {
+            drops[i] = Math.random() * -60;
+            hues[i] = 165 + Math.random() * 165; // aqua -> lavender -> pink
+            speeds[i] = 0.4 + Math.random() * 0.75;
+          }
+          ctx.fillStyle = "#060a0f";
+          ctx.fillRect(0, 0, w, h);
+        }
+
+        function glyph() {
+          return GLYPHS.charAt(Math.floor(Math.random() * GLYPHS.length));
+        }
+
+        function frame() {
+          // jejak memudar
+          ctx.fillStyle = "rgba(6,10,15,0.10)";
+          ctx.fillRect(0, 0, w, h);
+
+          for (let i = 0; i < cols; i++) {
+            const x = i * FONT;
+            const y = drops[i] * FONT;
+
+            if (y > 0 && y < h) {
+              // ekor berwarna mutiara
+              ctx.fillStyle = "hsla(" + hues[i] + ", 85%, 72%, 0.55)";
+              ctx.fillText(glyph(), x, y);
+              // kepala menyala putih
+              ctx.fillStyle = "rgba(240,252,255,0.95)";
+              ctx.fillText(glyph(), x, y - FONT);
+            }
+
+            drops[i] += speeds[i];
+            if (y > h && Math.random() > 0.975) {
+              drops[i] = Math.random() * -30;
+              hues[i] = 165 + Math.random() * 165;
+              speeds[i] = 0.4 + Math.random() * 0.75;
+            }
+          }
+          raf = requestAnimationFrame(frame);
+        }
+
+        function staticFrame() {
+          ctx.fillStyle = "#060a0f";
+          ctx.fillRect(0, 0, w, h);
+          for (let i = 0; i < cols; i++) {
+            for (let j = 0; j < Math.floor(h / FONT); j++) {
+              if (Math.random() > 0.86) {
+                ctx.fillStyle = "hsla(" + hues[i] + ", 80%, 70%, 0.22)";
+                ctx.fillText(glyph(), i * FONT, j * FONT);
+              }
+            }
+          }
+        }
+
+        function start() {
+          if (reduced) return staticFrame();
+          if (raf === null) raf = requestAnimationFrame(frame);
+        }
+        function stop() {
+          if (raf !== null) {
+            cancelAnimationFrame(raf);
+            raf = null;
+          }
+        }
+
+        setup();
+        start();
+
+        let t;
+        window.addEventListener("resize", () => {
+          clearTimeout(t);
+          t = setTimeout(() => {
+            stop();
+            setup();
+            start();
+          }, 180);
+        });
+
+        // hemat daya: berhenti saat tak terlihat
+        document.addEventListener("visibilitychange", () =>
+          document.hidden ? stop() : start(),
+        );
+        if ("IntersectionObserver" in window) {
+          new IntersectionObserver(
+            (entries) => (entries[0].isIntersecting ? start() : stop()),
+            { threshold: 0 },
+          ).observe(canvas);
+        }
+      })();
+    </script>
+
+    <script>
+      /* ---------- disiplin + linimasa ---------- */
+      (function () {
+        const tl = document.getElementById("linimasa");
+        const disc = document.getElementById("disiplin");
+        if (!tl) return;
+
+        const reduced = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+        const hasIO = "IntersectionObserver" in window;
+        const items = Array.from(tl.querySelectorAll(".tl-item"));
+        const yearBlocks = Array.from(tl.querySelectorAll(".tl-year"));
+        const YEARS = yearBlocks.map((b) => b.dataset.year);
+
+        /* ============ 1. reveal saat scroll ============ */
+        const sections = [disc, tl].filter(Boolean);
+        const revealables = [];
+        sections.forEach((s) =>
+          revealables.push(...s.querySelectorAll(".reveal")),
+        );
+
+        if (reduced || !hasIO) {
+          // tampilkan semuanya, jangan sembunyikan apa pun
+          revealables.forEach((el) => el.classList.add("in"));
+        } else {
+          sections.forEach((s) => s.classList.add("is-ready"));
+          const revealer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((e) => {
+                if (!e.isIntersecting) return;
+                e.target.classList.add("in");
+                revealer.unobserve(e.target); // sekali muncul, tetap muncul
+              });
+            },
+            { rootMargin: "0px 0px -12% 0px", threshold: 0.15 },
+          );
+          revealables.forEach((el) => revealer.observe(el));
+        }
+
+        /* ============ 2. tahun aktif + garis progres ============ */
+        const links = Array.from(tl.querySelectorAll(".tl-strip a"));
+        if (hasIO) {
+          const spotlight = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((e) => {
+                const y = e.target.dataset.year;
+                e.target.classList.toggle("active", e.isIntersecting);
+                links.forEach((a) => {
+                  if (a.getAttribute("href") === "#y" + y) {
+                    a.classList.toggle("active", e.isIntersecting);
+                  }
+                });
+              });
+            },
+            { rootMargin: "-45% 0px -45% 0px", threshold: 0 },
+          );
+          yearBlocks.forEach((b) => spotlight.observe(b));
+        }
+
+        const fill = document.getElementById("tlFill");
+        if (fill) {
+          let ticking = false;
+          const update = () => {
+            const r = tl.getBoundingClientRect();
+            const span = r.height - window.innerHeight;
+            const p = span > 0 ? -r.top / span : 0;
+            tl.style.setProperty("--p", Math.min(1, Math.max(0, p)).toFixed(4));
+            ticking = false;
+          };
+          const onScroll = () => {
+            if (!ticking) {
+              ticking = true;
+              requestAnimationFrame(update);
+            }
+          };
+          window.addEventListener("scroll", onScroll, { passive: true });
+          window.addEventListener("resize", onScroll);
+          update();
+        }
+
+        /* ============ 3. kartu disiplin ============
+           Angka dan rentang tahun dihitung langsung dari linimasa,
+           jadi kalau proyek di bawah diubah, kartu ikut menyesuaikan. */
+        const grid = document.getElementById("discGrid");
+        if (!grid) return;
+        const cards = Array.from(grid.querySelectorAll(".disc-card"));
+
+        const rolesOf = (el) =>
+          (el.dataset.roles || "").split(/\s+/).filter(Boolean);
+        const yearOf = (el) => el.closest(".tl-year").dataset.year;
+
+        cards.forEach((card) => {
+          const role = card.dataset.role;
+          const mine = items.filter((it) => rolesOf(it).includes(role));
+          const tahunTerpakai = new Set(mine.map(yearOf));
+
+          // rel tahun: satu segmen per tahun
+          const track = card.querySelector(".disc-track");
+          let lit = 0;
+          track.innerHTML = "";
+          YEARS.forEach((y) => {
+            const seg = document.createElement("i");
+            if (tahunTerpakai.has(y)) {
+              seg.className = "on";
+              seg.style.setProperty("--s", lit++);
+            }
+            track.appendChild(seg);
+          });
+
+          const first = YEARS.find((y) => tahunTerpakai.has(y));
+          const meta = card.querySelector(".disc-meta");
+          meta.innerHTML = mine.length
+            ? "<b>" + mine.length + "</b> proyek · sejak " + first
+            : "belum ada proyek";
+
+          const nama = card.querySelector(".disc-name").textContent.trim();
+          card.setAttribute(
+            "aria-label",
+            nama +
+              ": " +
+              mine.length +
+              " proyek. Klik untuk menyaring linimasa.",
+          );
+          if (!mine.length) card.disabled = true;
+        });
+
+        /* ============ 4. penyaringan ============ */
+        const clearBtn = document.getElementById("discClear");
+        let aktif = null;
+
+        function terapkan(role) {
+          aktif = role;
+          const menyaring = role !== null;
+
+          tl.classList.toggle("filtering", menyaring);
+          grid.classList.toggle("filtering", menyaring);
+          if (clearBtn) clearBtn.hidden = !menyaring;
+
+          cards.forEach((c) =>
+            c.setAttribute("aria-pressed", String(c.dataset.role === role)),
+          );
+
+          items.forEach((it) => {
+            const cocok = !menyaring || rolesOf(it).includes(role);
+            it.classList.toggle("dim", !cocok);
+          });
+
+          yearBlocks.forEach((b) => {
+            const ada = Array.from(b.querySelectorAll(".tl-item")).some(
+              (it) => !it.classList.contains("dim"),
+            );
+            b.classList.toggle("empty", menyaring && !ada);
+          });
+        }
+
+        cards.forEach((card) => {
+          card.addEventListener("click", () => {
+            const role = card.dataset.role;
+            terapkan(aktif === role ? null : role); // klik lagi untuk membatalkan
+          });
+        });
+
+        if (clearBtn) clearBtn.addEventListener("click", () => terapkan(null));
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && aktif) terapkan(null);
+        });
+      })();
     </script>
   </body>
 </html>
